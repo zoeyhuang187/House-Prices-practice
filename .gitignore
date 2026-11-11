@@ -1,0 +1,59 @@
+# Mac 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 编辑器缓存
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter 相关
+.ipynb_checkpoints/
+
+# 模型、权重、大文件（joblib、pkl、h5 这类）
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# 数据集、csv 原始数据
+data/
+*.csv
+*.parquet
+*.xlsx
+*.txt
+
+# 日志、输出
+logs/
+output/
+runs/
+*.log
+
+# 环境
+venv/
+env/
+.env
